@@ -22,7 +22,7 @@ class Person :
         #Assign class attribute to random name generating method
         self.customer_name = self.randomName()
     
-    #Create method to generate a random name from a list of 9 names
+    #Create a method to generate a random name from a list of 9 names
     def randomName(self) :
         self.lstCustomers = ["Jefe", "El Guapo", "Lucky Day", "Ned Nederlander", "Dusty Bottoms", "Harry Flugleman", "Carmen", "Invisible Swordsman", "Singing Bush"]
         return(self.lstCustomers[random.randint(0,8)])
